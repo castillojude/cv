@@ -1,0 +1,76 @@
+    #motherDiv{
+        display: flex ;
+        justify-content: space-between;
+        padding-top: 200px;
+        flex-wrap: wrap;
+    }
+
+    .childDiv {
+        display:flex; 
+        flex-direction: column; 
+        align-items: center;       
+        width: 100%;
+    }
+
+    .childHalf {
+        flex: 0 0 50%;
+    }
+
+    .child-content-start{
+        align-items: start !important;
+        margin-top: 40px;
+    }
+
+    .child-content-end{
+        align-items: end !important;
+        margin-top: 40px;
+    }
+
+    body{
+        background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 168));
+        /* background: url("../images/port-bg.jpg"); */
+        background-repeat: no-repeat;
+    }
+
+    .port-titles{
+        color:white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+    }
+
+    .port-content{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .line-div{
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        width: 50%;
+    }
+
+    header{
+        text-align: center;
+        /* margin-top: 50px !important; */
+        background-color: rgb(7 48 101);
+        height: 70px;
+        position: fixed;
+        width: 100%;
+    }
+
+    .div-header{
+        display:flex; 
+        flex-direction: row; 
+        align-items: center !important;       
+        width: 100%;
+        margin-top:0px;
+        gap: 10px;
+        margin-left: 10px;
+        font-size: 1vm;
+    }
+
+    .div-header-mother{
+        display:flex; 
+        height: 100%;
+        width: 100%;
+        margin-top:0px
+    }
