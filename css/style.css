@@ -74,7 +74,7 @@ header{
     margin-top:0px
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1080px){
     .motherDiv{
         display: block;
         padding-top: 200px;
